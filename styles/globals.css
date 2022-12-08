@@ -1,8 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: iranyekanweblight;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/iranyekanweblight.eot");
+  src: url("../assets/iranyekanweblight.eot?#iefix") format("embedded-opentype"), url("../assets/iranyekanweblight.woff2") format("woff2"), url("../assets/iranyekanweblight.woff") format("woff"), url("../assets/iranyekanweblight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iranyekanweblight;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/iranyekanwebbold.eot");
+  src: url("../assets/iranyekanwebbold.eot?#iefix") format("embedded-opentype"), url("../assets/iranyekanwebbold.woff2") format("woff2"), url("../assets/iranyekanwebbold.woff") format("woff"), url("../assets/iranyekanwebbold.ttf") format("truetype");
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:iranyekanweblight, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
